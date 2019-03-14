@@ -1,0 +1,570 @@
+<html>
+<head>
+    <title>Page 1</title>
+<link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+<script src="main.js" charset="utf-8"></script>
+</head>
+<body>
+<!--nav bar starts here-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Periodic Table of Elements</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="Page 1.html">Study page</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <!--nav bar ends here-->
+    <p>Note: Make sure you type the first letter as a capital letter or it will count it wrong!!!</p>
+    <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <p><strong>1.</strong> What is the symbol for Carbon</p>
+            </div>
+            <div class="col-sm-6" id="message"></div>
+          </div>
+            <div class="row" style="padding-bottom: 20px">
+              <div class="col-sm-6">
+                <input type="text" id='userAnswer'>
+              </div>
+              <div class="col-sm-6">
+                <a onclick="checkAnswer()" class="btn btn-primary">Check My Answer</a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <p><strong>2.</strong> What is the symbol for Phosphorus</p>
+              </div>
+              <div class="col-sm-6" id="message2"></div>
+            </div>
+              <div class="row" style="padding-bottom: 20px">
+                <div class="col-sm-6">
+                  <input type="text" id='userAnswer2'>
+                </div>
+                <div class="col-sm-6">
+                  <a onclick="checkAnswer2()" class="btn btn-primary">Check My Answer</a>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <p><strong>3.</strong> What is the symbol for Silicon</p>
+                </div>
+                <div class="col-sm-6" id="message3"></div>
+              </div>
+                <div class="row" style="padding-bottom: 20px">
+                  <div class="col-sm-6">
+                    <input type="text" id='userAnswer3'>
+                  </div>
+                  <div class="col-sm-6">
+                    <a onclick="checkAnswer3()" class="btn btn-primary">Check My Answer</a>
+                  </div>
+                </div>
+
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <p><strong>4.</strong> What is the symbol for Nitrogen</p>
+                        </div>
+                        <div class="col-sm-6" id="message4"></div>
+                      </div>
+                        <div class="row" style="padding-bottom: 20px">
+                          <div class="col-sm-6">
+                            <input type="text" id='userAnswer4'>
+                          </div>
+                          <div class="col-sm-6">
+                            <a onclick="checkAnswer4()" class="btn btn-primary">Check My Answer</a>
+                          </div>
+                        </div>
+
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p><strong>5.</strong> What is the symbol for Zinc</p>
+                  </div>
+                      <div class="col-sm-6" id="message5"></div>
+                </div>
+                <div class="row" style="padding-bottom: 20px">
+                <div class="col-sm-6">
+                <input type="text" id='userAnswer5'>
+                </div>
+                <div class="col-sm-6">
+                  <a onclick="checkAnswer5()" class="btn btn-primary">Check My Answer</a>
+                </div>
+              </div>
+
+
+          <div class="row">
+            <div class="col-sm-6">
+              <p><strong>6.</strong> What is the symbol for Iron</p>
+            </div>
+                <div class="col-sm-6" id="message6"></div>
+          </div>
+          <div class="row" style="padding-bottom: 20px">
+          <div class="col-sm-6">
+          <input type="text" id='userAnswer6'>
+          </div>
+          <div class="col-sm-6">
+            <a onclick="checkAnswer6()" class="btn btn-primary">Check My Answer</a>
+          </div>
+        </div>
+
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>7.</strong> What is the symbol for Copper</p>
+      </div>
+          <div class="col-sm-6" id="message7"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer7'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer7()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>8.</strong> What is the symbol for Oxygen</p>
+      </div>
+          <div class="col-sm-6" id="message8"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer8'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer8()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>9.</strong> What is the symbol for Hydrogen</p>
+      </div>
+          <div class="col-sm-6" id="message9"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer9'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer9()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>10.</strong> What is the symbol for Potassium</p>
+      </div>
+          <div class="col-sm-6" id="message10"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer10'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer10()" class="btn btn-primary">Check My Answer</a>
+    </div>
+  </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <p><strong>11.</strong> What is the symbol for Sodium</p>
+            </div>
+            <div class="col-sm-6" id="message11"></div>
+          </div>
+            <div class="row" style="padding-bottom: 20px">
+              <div class="col-sm-6">
+                <input type="text" id='userAnswer11'>
+              </div>
+              <div class="col-sm-6">
+                <a onclick="checkAnswer11()" class="btn btn-primary">Check My Answer</a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <p><strong>12.</strong> What is the symbol for Chlorine</p>
+              </div>
+              <div class="col-sm-6" id="message12"></div>
+            </div>
+              <div class="row" style="padding-bottom: 20px">
+                <div class="col-sm-6">
+                  <input type="text" id='userAnswer12'>
+                </div>
+                <div class="col-sm-6">
+                  <a onclick="checkAnswer12()" class="btn btn-primary">Check My Answer</a>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <p><strong>13.</strong> What is the symbol for Neon</p>
+                </div>
+                <div class="col-sm-6" id="message13"></div>
+              </div>
+                <div class="row" style="padding-bottom: 20px">
+                  <div class="col-sm-6">
+                    <input type="text" id='userAnswer13'>
+                  </div>
+                  <div class="col-sm-6">
+                    <a onclick="checkAnswer13()" class="btn btn-primary">Check My Answer</a>
+                  </div>
+                </div>
+
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <p><strong>14.</strong> What is the symbol for Mercury</p>
+                        </div>
+                        <div class="col-sm-6" id="message14"></div>
+                      </div>
+                        <div class="row" style="padding-bottom: 20px">
+                          <div class="col-sm-6">
+                            <input type="text" id='userAnswer14'>
+                          </div>
+                          <div class="col-sm-6">
+                            <a onclick="checkAnswer14()" class="btn btn-primary">Check My Answer</a>
+                          </div>
+                        </div>
+
+
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p><strong>15.</strong> What is the symbol for Gold?<p>
+                  </div>
+                      <div class="col-sm-6" id="message1"></div>
+                </div>
+                <div class="row" style="padding-bottom: 20px">
+                <div class="col-sm-6">
+                <input type="text" id='userAnswer5'>
+                </div>
+                <div class="col-sm-6">
+                  <a onclick="checkAnswer5()" class="btn btn-primary">Check My Answer</a>
+                </div>
+              </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <p><strong>16.</strong> What is the symbol for Bromine</p>
+            </div>
+                <div class="col-sm-6" id="message16"></div>
+          </div>
+          <div class="row" style="padding-bottom: 20px">
+          <div class="col-sm-6">
+          <input type="text" id='userAnswer16'>
+          </div>
+          <div class="col-sm-6">
+            <a onclick="checkAnswer16()" class="btn btn-primary">Check My Answer</a>
+          </div>
+        </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>17.</strong> What is the symbol for Tin</p>
+      </div>
+          <div class="col-sm-6" id="message17"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer17'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer17()" class="btn btn-primary">Check My Answer</a>
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>18.</strong> What is the symbol for Lithium</p>
+      </div>
+          <div class="col-sm-6" id="message18"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer18'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer18()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>19.</strong> What is the symbol for Sulfur</p>
+      </div>
+          <div class="col-sm-6" id="message19"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer19'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer19()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>20.</strong> What is the symbol for Aluminum</p>
+      </div>
+          <div class="col-sm-6" id="message20"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer20'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer20()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <p><strong>21.</strong> What is the symbol for Calcium</p>
+            </div>
+            <div class="col-sm-6" id="message21"></div>
+          </div>
+            <div class="row" style="padding-bottom: 20px">
+              <div class="col-sm-6">
+                <input type="text" id='userAnswer21'>
+              </div>
+              <div class="col-sm-6">
+                <a onclick="checkAnswer21()" class="btn btn-primary">Check My Answer</a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <p><strong>22.</strong> What is the symbol for Uranium</p>
+              </div>
+              <div class="col-sm-6" id="message22"></div>
+            </div>
+              <div class="row" style="padding-bottom: 20px">
+                <div class="col-sm-6">
+                  <input type="text" id='userAnswer22'>
+                </div>
+                <div class="col-sm-6">
+                  <a onclick="checkAnswer22()" class="btn btn-primary">Check My Answer</a>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-sm-6">
+                  <p><strong>23.</strong> What is the symbol for Iodine</p>
+                </div>
+                <div class="col-sm-6" id="message23"></div>
+              </div>
+                <div class="row" style="padding-bottom: 20px">
+                  <div class="col-sm-6">
+                    <input type="text" id='userAnswer23'>
+                  </div>
+                  <div class="col-sm-6">
+                    <a onclick="checkAnswer23()" class="btn btn-primary">Check My Answer</a>
+                  </div>
+                </div>
+
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <p><strong>24.</strong> What is the symbol for Helium</p>
+                        </div>
+                        <div class="col-sm-6" id="message24"></div>
+                      </div>
+                        <div class="row" style="padding-bottom: 20px">
+                          <div class="col-sm-6">
+                            <input type="text" id='userAnswer24'>
+                          </div>
+                          <div class="col-sm-6">
+                            <a onclick="checkAnswer24()" class="btn btn-primary">Check My Answer</a>
+                          </div>
+                        </div>
+
+                <div class="row">
+                  <div class="col-sm-6">
+                    <p><strong>25.</strong> What is the symbol for Colbalt</p>
+                  </div>
+                      <div class="col-sm-6" id="message25"></div>
+                </div>
+                <div class="row" style="padding-bottom: 20px">
+                <div class="col-sm-6">
+                <input type="text" id='userAnswer25'>
+                </div>
+                <div class="col-sm-6">
+                  <a onclick="checkAnswer25()" class="btn btn-primary">Check My Answer</a>
+                </div>
+              </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <p><strong>26.</strong> What is the symbol for Silver</p>
+            </div>
+                <div class="col-sm-6" id="message26"></div>
+          </div>
+          <div class="row" style="padding-bottom: 20px">
+          <div class="col-sm-6">
+          <input type="text" id='userAnswer26'>
+          </div>
+          <div class="col-sm-6">
+            <a onclick="checkAnswer26()" class="btn btn-primary">Check My Answer</a>
+          </div>
+        </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>27.</strong> What is the symbol for Beryllium</p>
+      </div>
+          <div class="col-sm-6" id="message27"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer27'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer27()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>28.</strong> What is the symbol for Magnesium</p>
+      </div>
+          <div class="col-sm-6" id="message28"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer28'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer28()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>29.</strong> What is the symbol for Manganisium</p>
+      </div>
+          <div class="col-sm-6" id="message29"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer29'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer29()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>30.</strong> What is the symbol for Platinum</p>
+      </div>
+          <div class="col-sm-6" id="message30"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer30'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer30()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>31.</strong> What is the symbol for Tungsten</p>
+      </div>
+          <div class="col-sm-6" id="message31"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer31'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer31()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>32.</strong> What is the symbol for Titanium</p>
+      </div>
+          <div class="col-sm-6" id="message32"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer32'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer32()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>33.</strong> What is the symbol for Lead</p>
+      </div>
+          <div class="col-sm-6" id="message33"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer33'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer33()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>34.</strong> What is the symbol for Argon</p>
+      </div>
+          <div class="col-sm-6" id="message34"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer34'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer34()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>35.</strong> What is the symbol for Radium</p>
+      </div>
+          <div class="col-sm-6" id="message35"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer35'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer35()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <p><strong>36.</strong> What is the symbol for Flourine</p>
+      </div>
+          <div class="col-sm-6" id="message36"></div>
+    </div>
+    <div class="row" style="padding-bottom: 20px">
+    <div class="col-sm-6">
+    <input type="text" id='userAnswer36'>
+    </div>
+    <div class="col-sm-6">
+      <a onclick="checkAnswer36()" class="btn btn-primary">Check My Answer</a>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
